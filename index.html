@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Webpage</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #f0f0f0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+      color: #007bff;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      padding: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #000;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+    .search {
+      display: flex;
+      align-items: center;
+    }
+    .search input {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .search button {
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 20px;
+    }
+
+    /* Accordion styles */
+    .accordion {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .accordion-item {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .accordion-item h3 {
+      cursor: pointer;
+    }
+    .accordion-item h3:hover {
+      background-color: #eee;
+    }
+    .accordion-content {
+      padding: 10px;
+      display: none;
+    }
+
+    /* Breadcrumb styles */
+    .breadcrumb {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    .breadcrumb li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .breadcrumb a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    /* Cards styles */
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+    .card p {
+      text-align: center;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
